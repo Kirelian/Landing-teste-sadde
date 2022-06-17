@@ -1,61 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <link href="media.css" rel="stylesheet">
+    <link href="https://cdn.usebootstrap.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="assets/styles/menu.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+
     <title>Aula Gratuita de Ozonioterapia</title>
 </head>
+
 <body>
-    <header>
-        <div id="title">
-            <h1>Aula gratuita</h1>
-            <h1>de Ozonioterapia</h1>
-        </div>
-    </div>
 
-    <ul>
-        <a href="#"><li>Marcello</li></a>
-        <a href="#"><li>Dev.</li></a>
-        <a href="#"><li>WEB</li></a>
-        <a href="#"><li>2022</li></a>
-       
-    </ul>
-</header>
-      
-    </header>
+    <!-- Navbar -->
+    <div class="menu"> <span></span> </div>
+    <nav id="nav">
+        <ul class="main">
+            <li><a target="_blank" href="#">Github</a></li>
+            <li><a target="_blank" href="#">Linkedin</a></li>
+        </ul>
+    </nav>
+    <div class="overlay"></div>
+    <!-- Navbar End -->
 
-    <main>
-        <div class="forms">
-      
-            <h2><span>Inscreva-se agora</span></h2>
-            
-            <p>
-                Preencha o formulário e assista uma aula exclusiva com uma especialista em Ozonioterapia.
-            </p>
-            
-                <form action="C:\Users\marce\Documents\landing page 2\pag2\index.html" method="post">
-                     <input type="text" placeholder="Nome", required>
-                     <input type="email" placeholder="Seu melhor E-mail", required>
-                     <input type="text" placeholder="DDD + telefone", required>
-                       
-                     
-                     <a href="C:\Users\marce\Documents\landing page 2\pag2\index.html">
-                <input type="submit" value="Quero Assistir! >">
-                     </a>
-                    
-                
-            </form>
-        
+    <h3 class="subtitle">Aula gratuita de Ozonioterapia</h3>
+
+    <!-- LandingPage -->
+    <div class="container">
+        <div class="boxData row">
+                <div class="col-sm-6 align-self-center">
+                    <h1 class="title">Inscreva-se agora</h1>
+                    <p class="description">Preencha o formulário e assista uma aula exclusiva com uma especialista em
+                        Ozonioterapia.</p>
+                    <form action="lead.html">
+                        <input class="boxData__input" type="text" placeholder="Nome" required>
+                        <input class="boxData__input" type="email" placeholder="Seu melhor e-mail" required>
+                        <input id="phone" class="boxData__input" type="text" placeholder="DDD + Telefone" required>
+                        <button class="boxData__button">Quero assistir!</button>
+                    </form>
+                </div>
+                <div class="col-sm-6 align-self-center">
+                    <img class="boxImage" src="./assets/images/avatar-elogo.png" alt="">
+                </div>
+            </div>
     </div>
-<div class="imagemlateral">
-        <article>
-            <img src="none.png">
-            
-        </article>
-    </div>
-    </main>
+    <!-- LandingPage End -->
+
+    <footer class="fixed-bottom">
+        <p>Desenvolvido com ❤️ por Marcello Augusto</p>
+    </footer>
+
 </body>
+
+<script src="https://cdn.usebootstrap.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="assets/scripts/main.js"></script>
+
 </html>
