@@ -71,6 +71,8 @@ body {
 
 .boxImage {
     max-width: 550px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
 }
 
 iframe {
@@ -103,4 +105,14 @@ footer {
         width: 360px;
         height: 360px;
     }
+}
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{transform: translateY(0px);}
+    
 }
